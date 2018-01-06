@@ -1,0 +1,9 @@
+runtime: go
+api_version: go1
+
+#env_variables:
+  #PROJECT: funnel-165618
+
+handlers:
+- url: /.*
+  script: _go_app
